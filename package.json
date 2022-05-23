@@ -1,9 +1,10 @@
 {
+  "name": "nextjs-static-demo",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "now-build": "next build && next export -o dist",
+    "lint": "next lint",
     "export": "next build && next export"
   },
   "dependencies": {
